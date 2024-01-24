@@ -42,6 +42,61 @@
     </style>
   </head>
   <body class="font-manrope">
+    <!-- Nav Bar -->
+    <nav>
+      <div class="navbar bg-base-100">
+        <div class="flex-1 justify-between">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h8m-8 6h16"
+                />
+              </svg>
+            </div>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content mt-3 z-[1] p-2 text-base shadow bg-base-100 rounded-box w-52"
+            >
+              <li><a class="text-[#FF4240]">Home</a></li>
+
+              <li><a>About</a></li>
+              <li><a>Pages</a></li>
+              <li><a>Blog</a></li>
+              <li><a>Contact</a></li>
+            </ul>
+          </div>
+          <a class="btn btn-ghost text-4xl"
+            >Hockey<span class="text-[#FF4240]">’</span>s</a
+          >
+
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu text-base menu-horizontal px-1">
+              <li><a class="text-[#FF4240]">Home</a></li>
+
+              <li><a>About</a></li>
+              <li><a>Pages</a></li>
+              <li><a>Blog</a></li>
+              <li><a>Contact</a></li>
+            </ul>
+          </div>
+          <div class="">
+            <a class="btn bg-error text-white">Get Ticket </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Banner Section -->
     <header class="relative">
       <!-- Banner section -->
       <div class="flex justify-center items-center mt-36">
@@ -254,212 +309,230 @@
           </p>
         </div>
         <!-- Our new product section card colum 1 -->
-        <div class="flex justify-center gap-7">
-          <div class="hero max-w-xl h-56 bg-white border-stone-300">
-            <div class="hero-content flex-col lg:flex-row">
-              <img src="images/5.png" class="max-w-sm rounded-lg shadow-2xl" />
-              <div>
-                <div class="gap-2">
-                  <div class="inline-flex">
-                    <img class="w-6 h-6" src="icons/star.png" alt="" />
-                    <p class="font-extrabold">5.0</p>
+        <div class="flex flex-col md:flex-row justify-center">
+          <div class="flex flex-col justify-center gap-7">
+            <div class="hero max-w-xl h-56 bg-white border-stone-300">
+              <div class="hero-content flex-col lg:flex-row">
+                <img
+                  src="images/5.png"
+                  class="max-w-sm rounded-lg shadow-2xl"
+                />
+                <div>
+                  <div class="gap-2">
+                    <div class="inline-flex">
+                      <img class="w-6 h-6" src="icons/star.png" alt="" />
+                      <p class="font-extrabold">5.0</p>
+                    </div>
+                    <div class="inline-flex">
+                      <img class="w-6 h-6" src="icons/eye.png" alt="" />
+                      <p class="font-extrabold">20</p>
+                    </div>
+                    <div class="inline-flex">
+                      <img class="w-6 h-6" src="icons/love.png" alt="" />
+                      <p class="font-extrabold">200</p>
+                    </div>
                   </div>
-                  <div class="inline-flex">
-                    <img class="w-6 h-6" src="icons/eye.png" alt="" />
-                    <p class="font-extrabold">20</p>
-                  </div>
-                  <div class="inline-flex">
-                    <img class="w-6 h-6" src="icons/love.png" alt="" />
-                    <p class="font-extrabold">200</p>
+                  <h1 class="text-xl font-extrabold text-black">
+                    World Cup Flags Football
+                  </h1>
+                  <p class="font-medium">
+                    A thrilling fusion of global competition and soccer finesse.
+                  </p>
+                  <div class="flex gap-2">
+                    <p class="font-extrabold text-[#FF4240]">Price - $22.00</p>
+                    <div class="inline-flex">
+                      <img class="w-6 h-6" src="icons/cart.png" alt="" />
+                      <p>Delivery Fee : Free</p>
+                    </div>
                   </div>
                 </div>
-                <h1 class="text-xl font-extrabold text-black">
-                  World Cup Flags Football
-                </h1>
-                <p class="font-medium">
-                  A thrilling fusion of global competition and soccer finesse.
-                </p>
-                <div class="flex gap-2">
-                  <p class="font-extrabold text-[#FF4240]">Price - $22.00</p>
-                  <div class="inline-flex">
-                    <img class="w-6 h-6" src="icons/cart.png" alt="" />
-                    <p>Delivery Fee : Free</p>
+              </div>
+            </div>
+            <div class="hero max-w-xl h-56">
+              <div class="hero-content flex-col lg:flex-row">
+                <img
+                  src="images/7.png"
+                  class="max-w-sm rounded-lg shadow-2xl"
+                />
+                <div>
+                  <div class="gap-2">
+                    <div class="inline-flex">
+                      <img class="w-6 h-6" src="icons/star.png" alt="" />
+                      <p class="font-extrabold">5.0</p>
+                    </div>
+                    <div class="inline-flex">
+                      <img class="w-6 h-6" src="icons/eye.png" alt="" />
+                      <p class="font-extrabold">20</p>
+                    </div>
+                    <div class="inline-flex">
+                      <img class="w-6 h-6" src="icons/love.png" alt="" />
+                      <p class="font-extrabold">200</p>
+                    </div>
+                  </div>
+                  <h1 class="text-xl font-extrabold text-black">
+                    Cap For Hockeys
+                  </h1>
+                  <p class="font-medium">
+                    A thrilling fusion of global competition and soccer finesse.
+                  </p>
+                  <div class="flex gap-2">
+                    <p class="font-extrabold text-[#FF4240]">Price - $22.00</p>
+                    <div class="inline-flex">
+                      <img class="w-6 h-6" src="icons/cart.png" alt="" />
+                      <p>Delivery Fee : Free</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="hero max-w-xl h-56 bg-white border-stone-300">
+              <div class="hero-content flex-col lg:flex-row">
+                <img
+                  src="images/9.png"
+                  class="max-w-sm rounded-lg shadow-2xl"
+                />
+                <div>
+                  <div class="gap-2">
+                    <div class="inline-flex">
+                      <img class="w-6 h-6" src="icons/star.png" alt="" />
+                      <p class="font-extrabold">5.0</p>
+                    </div>
+                    <div class="inline-flex">
+                      <img class="w-6 h-6" src="icons/eye.png" alt="" />
+                      <p class="font-extrabold">20</p>
+                    </div>
+                    <div class="inline-flex">
+                      <img class="w-6 h-6" src="icons/love.png" alt="" />
+                      <p class="font-extrabold">200</p>
+                    </div>
+                  </div>
+                  <h1 class="text-xl font-extrabold text-black">
+                    World Cup Flags Football
+                  </h1>
+                  <p class="font-medium">
+                    A thrilling fusion of global competition and soccer finesse.
+                  </p>
+                  <div class="flex gap-2">
+                    <p class="font-extrabold text-[#FF4240]">Price - $22.00</p>
+                    <div class="inline-flex">
+                      <img class="w-6 h-6" src="icons/cart.png" alt="" />
+                      <p>Delivery Fee : Free</p>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="hero max-w-xl h-56">
-            <div class="hero-content flex-col lg:flex-row">
-              <img src="images/6.png" class="max-w-sm rounded-lg shadow-2xl" />
-              <div>
-                <div class="gap-2">
-                  <div class="inline-flex">
-                    <img class="w-6 h-6" src="icons/star.png" alt="" />
-                    <p class="font-extrabold">5.0</p>
+          <!-- Our new product section card colum 2 -->
+
+          <div class="flex flex-col justify-center gap-7">
+            <div class="hero max-w-xl h-56 bg-white border-stone-300">
+              <div class="hero-content flex-col lg:flex-row">
+                <img
+                  src="images/6.png"
+                  class="max-w-sm rounded-lg shadow-2xl"
+                />
+                <div>
+                  <div class="gap-2">
+                    <div class="inline-flex">
+                      <img class="w-6 h-6" src="icons/star.png" alt="" />
+                      <p class="font-extrabold">5.0</p>
+                    </div>
+                    <div class="inline-flex">
+                      <img class="w-6 h-6" src="icons/eye.png" alt="" />
+                      <p class="font-extrabold">20</p>
+                    </div>
+                    <div class="inline-flex">
+                      <img class="w-6 h-6" src="icons/love.png" alt="" />
+                      <p class="font-extrabold">200</p>
+                    </div>
                   </div>
-                  <div class="inline-flex">
-                    <img class="w-6 h-6" src="icons/eye.png" alt="" />
-                    <p class="font-extrabold">20</p>
-                  </div>
-                  <div class="inline-flex">
-                    <img class="w-6 h-6" src="icons/love.png" alt="" />
-                    <p class="font-extrabold">200</p>
-                  </div>
-                </div>
-                <h1 class="text-xl font-extrabold text-black">
-                  World Cup Flags Football
-                </h1>
-                <p class="font-medium">
-                  A thrilling fusion of global competition and soccer finesse.
-                </p>
-                <div class="flex gap-2">
-                  <p class="font-extrabold text-[#FF4240]">Price - $22.00</p>
-                  <div class="inline-flex">
-                    <img class="w-6 h-6" src="icons/cart.png" alt="" />
-                    <p>Delivery Fee : Free</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- Our new product section card colum 2 -->
-        <div class="flex justify-center gap-7">
-          <div class="hero max-w-xl h-56 bg-white border-stone-300">
-            <div class="hero-content flex-col lg:flex-row">
-              <img src="images/7.png" class="max-w-sm rounded-lg shadow-2xl" />
-              <div>
-                <div class="gap-2">
-                  <div class="inline-flex">
-                    <img class="w-6 h-6" src="icons/star.png" alt="" />
-                    <p class="font-extrabold">5.0</p>
-                  </div>
-                  <div class="inline-flex">
-                    <img class="w-6 h-6" src="icons/eye.png" alt="" />
-                    <p class="font-extrabold">20</p>
-                  </div>
-                  <div class="inline-flex">
-                    <img class="w-6 h-6" src="icons/love.png" alt="" />
-                    <p class="font-extrabold">200</p>
-                  </div>
-                </div>
-                <h1 class="text-xl font-extrabold text-black">
-                  Cap For Hockeys
-                </h1>
-                <p class="font-medium">
-                  A thrilling fusion of global competition and soccer finesse.
-                </p>
-                <div class="flex gap-2">
-                  <p class="font-extrabold text-[#FF4240]">Price - $22.00</p>
-                  <div class="inline-flex">
-                    <img class="w-6 h-6" src="icons/cart.png" alt="" />
-                    <p>Delivery Fee : Free</p>
+                  <h1 class="text-xl font-extrabold text-black">
+                    World Cup Flags Football
+                  </h1>
+                  <p class="font-medium">
+                    A thrilling fusion of global competition and soccer finesse.
+                  </p>
+                  <div class="flex gap-2">
+                    <p class="font-extrabold text-[#FF4240]">Price - $22.00</p>
+                    <div class="inline-flex">
+                      <img class="w-6 h-6" src="icons/cart.png" alt="" />
+                      <p>Delivery Fee : Free</p>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="hero max-w-xl h-56">
-            <div class="hero-content flex-col lg:flex-row">
-              <img src="images/8.png" class="max-w-sm rounded-lg shadow-2xl" />
-              <div>
-                <div class="gap-2">
-                  <div class="inline-flex">
-                    <img class="w-6 h-6" src="icons/star.png" alt="" />
-                    <p class="font-extrabold">5.0</p>
+            <div class="hero max-w-xl h-56">
+              <div class="hero-content flex-col lg:flex-row">
+                <img
+                  src="images/8.png"
+                  class="max-w-sm rounded-lg shadow-2xl"
+                />
+                <div>
+                  <div class="gap-2">
+                    <div class="inline-flex">
+                      <img class="w-6 h-6" src="icons/star.png" alt="" />
+                      <p class="font-extrabold">5.0</p>
+                    </div>
+                    <div class="inline-flex">
+                      <img class="w-6 h-6" src="icons/eye.png" alt="" />
+                      <p class="font-extrabold">20</p>
+                    </div>
+                    <div class="inline-flex">
+                      <img class="w-6 h-6" src="icons/love.png" alt="" />
+                      <p class="font-extrabold">200</p>
+                    </div>
                   </div>
-                  <div class="inline-flex">
-                    <img class="w-6 h-6" src="icons/eye.png" alt="" />
-                    <p class="font-extrabold">20</p>
-                  </div>
-                  <div class="inline-flex">
-                    <img class="w-6 h-6" src="icons/love.png" alt="" />
-                    <p class="font-extrabold">200</p>
-                  </div>
-                </div>
-                <h1 class="text-xl font-extrabold text-black">
-                  World Cup Flags Football
-                </h1>
-                <p class="font-medium">
-                  A thrilling fusion of global competition and soccer finesse.
-                </p>
-                <div class="flex gap-2">
-                  <p class="font-extrabold text-[#FF4240]">Price - $22.00</p>
-                  <div class="inline-flex">
-                    <img class="w-6 h-6" src="icons/cart.png" alt="" />
-                    <p>Delivery Fee : Free</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- Our new product section card colum 3 -->
-        <div class="flex justify-center gap-7">
-          <div class="hero max-w-xl h-56 bg-white border-stone-300">
-            <div class="hero-content flex-col lg:flex-row">
-              <img src="images/9.png" class="max-w-sm rounded-lg shadow-2xl" />
-              <div>
-                <div class="gap-2">
-                  <div class="inline-flex">
-                    <img class="w-6 h-6" src="icons/star.png" alt="" />
-                    <p class="font-extrabold">5.0</p>
-                  </div>
-                  <div class="inline-flex">
-                    <img class="w-6 h-6" src="icons/eye.png" alt="" />
-                    <p class="font-extrabold">20</p>
-                  </div>
-                  <div class="inline-flex">
-                    <img class="w-6 h-6" src="icons/love.png" alt="" />
-                    <p class="font-extrabold">200</p>
-                  </div>
-                </div>
-                <h1 class="text-xl font-extrabold text-black">
-                  World Cup Flags Football
-                </h1>
-                <p class="font-medium">
-                  A thrilling fusion of global competition and soccer finesse.
-                </p>
-                <div class="flex gap-2">
-                  <p class="font-extrabold text-[#FF4240]">Price - $22.00</p>
-                  <div class="inline-flex">
-                    <img class="w-6 h-6" src="icons/cart.png" alt="" />
-                    <p>Delivery Fee : Free</p>
+                  <h1 class="text-xl font-extrabold text-black">
+                    World Cup Flags Football
+                  </h1>
+                  <p class="font-medium">
+                    A thrilling fusion of global competition and soccer finesse.
+                  </p>
+                  <div class="flex gap-2">
+                    <p class="font-extrabold text-[#FF4240]">Price - $22.00</p>
+                    <div class="inline-flex">
+                      <img class="w-6 h-6" src="icons/cart.png" alt="" />
+                      <p>Delivery Fee : Free</p>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="hero max-w-xl h-56">
-            <div class="hero-content flex-col lg:flex-row">
-              <img src="images/10.png" class="max-w-sm rounded-lg shadow-2xl" />
-              <div>
-                <div class="gap-2">
-                  <div class="inline-flex">
-                    <img class="w-6 h-6" src="icons/star.png" alt="" />
-                    <p class="font-extrabold">5.0</p>
+            <div class="hero max-w-xl h-56">
+              <div class="hero-content flex-col lg:flex-row">
+                <img
+                  src="images/10.png"
+                  class="max-w-sm rounded-lg shadow-2xl"
+                />
+                <div>
+                  <div class="gap-2">
+                    <div class="inline-flex">
+                      <img class="w-6 h-6" src="icons/star.png" alt="" />
+                      <p class="font-extrabold">5.0</p>
+                    </div>
+                    <div class="inline-flex">
+                      <img class="w-6 h-6" src="icons/eye.png" alt="" />
+                      <p class="font-extrabold">20</p>
+                    </div>
+                    <div class="inline-flex">
+                      <img class="w-6 h-6" src="icons/love.png" alt="" />
+                      <p class="font-extrabold">200</p>
+                    </div>
                   </div>
-                  <div class="inline-flex">
-                    <img class="w-6 h-6" src="icons/eye.png" alt="" />
-                    <p class="font-extrabold">20</p>
-                  </div>
-                  <div class="inline-flex">
-                    <img class="w-6 h-6" src="icons/love.png" alt="" />
-                    <p class="font-extrabold">200</p>
-                  </div>
-                </div>
-                <h1 class="text-xl font-extrabold text-black">
-                  World Cup Flags Football
-                </h1>
-                <p class="font-medium">
-                  A thrilling fusion of global competition and soccer finesse.
-                </p>
-                <div class="flex gap-2">
-                  <p class="font-extrabold text-[#FF4240]">Price - $22.00</p>
-                  <div class="inline-flex">
-                    <img class="w-6 h-6" src="icons/cart.png" alt="" />
-                    <p>Delivery Fee : Free</p>
+                  <h1 class="text-xl font-extrabold text-black">
+                    World Cup Flags Football
+                  </h1>
+                  <p class="font-medium">
+                    A thrilling fusion of global competition and soccer finesse.
+                  </p>
+                  <div class="flex gap-2">
+                    <p class="font-extrabold text-[#FF4240]">Price - $22.00</p>
+                    <div class="inline-flex">
+                      <img class="w-6 h-6" src="icons/cart.png" alt="" />
+                      <p>Delivery Fee : Free</p>
+                    </div>
                   </div>
                 </div>
               </div>
